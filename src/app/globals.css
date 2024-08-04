@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body {
+  @apply text-white m-0 p-0;
+  cursor: wait;
+}
+
+#projectModal {
+  transition: top 0.6 cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
